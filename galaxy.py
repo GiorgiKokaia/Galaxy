@@ -19,8 +19,8 @@ v = np.zeros(3) 				#Used for integration
 h = 0.1 					#Stepsize
 n = 10000					#Number of timesteps
 m = 1 						#Number of trajectories to integrate
-rt = np.zeros((m, 3, n)) 			#x, y, z
-vt = np.zeros((m, 3, n)) 			#v_x, v_y, v_z
+rt = np.zeros((m, 3, n)) 			#r, phi, z
+vt = np.zeros((m, 3, n)) 			#v_r, v_phi, v_z
 et = np.zeros((m, 2, n)) 			#0 = E_k, 1 = E_p
 #path = "/home/giorgi/my/folder/" 		Path to folder in which you want to save data
 #os.mkdir(path) 				#If folder you want to save data in doesn't exist, if you want to save at all uncomment this
